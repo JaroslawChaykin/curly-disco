@@ -365,7 +365,11 @@
 
     document.getElementById('button1').onclick = function () {
         opts.addedSpeed = 0.28;
-    };
-    document.getElementById('discharge').onclick = function () {
-        opts.addedSpeed = 0.04;
+        let ell = document.querySelector('.button-collegium');
+        let updateText = document.createElement('div');
+
+        updateText.className = 'fast';
+        updateText.innerHTML = 'Ускорено';
+
+        ell.append(updateText);
     };
