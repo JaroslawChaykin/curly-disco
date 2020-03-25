@@ -26,14 +26,14 @@
             rotVelX: .003,
             rotVelY: .002,
 
-            repaintColor: '#240072',
-            connectionColor: 'hsla(200,60%,light%,alp)',
-            rootColor: 'hsla(0,60%,light%,alp)',
-            endColor: 'hsla(160,20%,light%,alp)',
-            dataColor: 'hsla(40,80%,light%,alp)',
+            repaintColor: '#f6f6f6',
+            connectionColor: '#931b00',
+            rootColor: '#939393',
+            endColor: '#4b4b4b',
+            dataColor: '#939393',
 
-            wireframeWidth: .3,
-            wireframeColor: '#88f',
+            wireframeWidth: 3,
+            wireframeColor: '#000',
 
             depth: 250,
             focalLength: 400,
@@ -61,7 +61,7 @@
 
     ctx.fillStyle = '#222';
     ctx.fillRect( 0, 0, w, h );
-    ctx.fillStyle = '#ccc';
+    ctx.fillStyle = '#373737';
     ctx.font = '50px Verdana';
     ctx.fillText( 'Подсчитывание', w / 2 - ctx.measureText( 'Подсчитывание' ).width / 2, h / 2 - 15 );
 
