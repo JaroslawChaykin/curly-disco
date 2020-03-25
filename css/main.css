@@ -12,6 +12,9 @@ canvas {
     margin: 0;
     padding: 0;
 }
+.fast {
+    color: #5a47ff;
+}
 body {
     overflow: hidden;
 }
@@ -19,6 +22,9 @@ body {
     position: fixed;
     margin: 20px;
     z-index: 7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 button {
     background: transparent;
@@ -32,6 +38,14 @@ button {
 }
 button:hover {
     background: #1D3385;
+}
+.logo {
+    margin-top: 10px;
+    margin-right: 40px;
+    color: white;
+    font-family: sans-serif;
+    white-space: pre-line;
+    text-align: right;
 }
 #title-box {
     position: fixed;
@@ -48,4 +62,13 @@ button:hover {
     max-width: 940px;
     font-family: 'Colus', sans-serif;
     z-index: 4;
+}
+.first {
+    animation: translate 10s infinite ease-in-out;
+}
+@keyframes translate {
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
 }
