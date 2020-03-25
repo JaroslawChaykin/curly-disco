@@ -81,7 +81,7 @@ button:hover {
 @media (min-width: 992px) and (max-width: 1199px) {
     #title {
         max-width: 850px;
-        font-size: 90px;
+        font-size: 100px;
     }
 }
 
@@ -95,20 +95,20 @@ button:hover {
 @media (min-width: 767px) {
     #title {
         max-width: 720px;
-        font-size: 70px;
+        font-size: 80px;
     }
 }
 
 @media (min-width: 650px) {
     #title {
         max-width: 600px;
-        font-size: 60px;
+        font-size: 70px;
     }
 }
 
 @media (min-width: 480px) {
     #title {
         max-width: 420px;
-        font-size: 50px;
+        font-size: 70px;
     }
 }
