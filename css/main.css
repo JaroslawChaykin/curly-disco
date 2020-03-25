@@ -31,18 +31,19 @@ button {
     border: 1px solid blue;
     border-radius: 3px;
     padding: 10px 15px;
-    color: white;
+    color: #939393;
     transition: all 0.2s ease-in;
     font-size: 12px;
     margin-bottom: 10px;
 }
 button:hover {
     background: #1D3385;
+    color: white;
 }
 .logo {
     margin-top: 10px;
     margin-right: 40px;
-    color: white;
+    color: #939393;
     font-family: sans-serif;
     white-space: pre-line;
     text-align: right;
@@ -58,10 +59,12 @@ button:hover {
 }
 #title {
     font-size: 100px;
-    color: white;
+    color: transparent;
     max-width: 940px;
     font-family: 'Colus', sans-serif;
     z-index: 4;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #939393;
 }
 .first {
     animation: translate 10s infinite ease-in-out;
