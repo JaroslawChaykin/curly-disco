@@ -373,3 +373,11 @@
 
         ell.append(updateText);
     };
+    document.getElementById('logo').onclick = function () {
+        opts.repaintColor = '#000000';
+            opts.connectionColor = '#931b00';
+            opts.rootColor = '#939393';
+            opts.endColor = '#9f9f9f';
+            opts.dataColor = '#cecece';
+
+    };

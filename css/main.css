@@ -28,7 +28,7 @@ body {
 }
 button {
     background: transparent;
-    border: 1px solid blue;
+    border: 1px solid #1D3385;
     border-radius: 3px;
     padding: 10px 15px;
     color: #939393;
@@ -47,6 +47,13 @@ button:hover {
     font-family: sans-serif;
     white-space: pre-line;
     text-align: right;
+}
+#logo {
+    background: transparent;
+    border: none;
+}
+#logo:hover {
+    background: #d2d2d2;
 }
 #title-box {
     position: fixed;
